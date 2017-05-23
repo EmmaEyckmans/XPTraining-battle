@@ -10,6 +10,8 @@ public class Soldier {
 
     private String surName;
 
+    private String nogIets;
+
     public Soldier(String name) {
         Validate.isTrue(isNotBlank(name));
 
