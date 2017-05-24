@@ -11,6 +11,7 @@ public class SoldierTest {
         Soldier soldier = new Soldier("name");
 
         assertThat(soldier.getName()).isEqualTo("name");
+        assertThat(soldier.getName()).isEqualTo("name2");
     }
 
     @Test(expected = IllegalArgumentException.class)
